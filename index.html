@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Jhuliana de Barros Peixoto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Portfólio de Jhuliana de Barros Peixoto</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#formacao">Formação</a>
+      <a href="#projetos">Portfólio</a>
+      <a href="#contato">Contato</a>
+      <button id="btnTema">Alternar Tema</button>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <img src="foto-jhuliana.jpg" alt="Foto de Jhuliana de Barros Peixoto" class="foto">
+    <p>Olá! Meu nome é <strong>Jhuliana de Barros Peixoto</strong>, tenho 21 anos e sou estudante de <strong>Engenharia de Software</strong> pelo Centro Universitário Internacional - Uninter. 
+    Sou apaixonada por tecnologia, programação e design, e estou sempre em busca de aprender mais. Busco minha primeira oportunidade na área de TI para aplicar meus conhecimentos e crescer profissionalmente.</p>
+    <p>Sou uma pessoa <strong>proativa, organizada e comunicativa</strong>, com facilidade para trabalhar em equipe e resolver problemas de forma criativa.</p>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação e Habilidades</h2>
+    <ul>
+      <li><strong>Engenharia de Software</strong> - Centro Universitário Internacional (Uninter) - Em andamento</li>
+      <li><strong>Ensino Médio</strong> - Elite Rede de Ensino - Concluído</li>
+    </ul>
+
+    <h3>Cursos complementares</h3>
+    <ul>
+      <li>Análise de Dados em Python – Anhanguera (2025)</li>
+      <li>Estruturas de Dados em Python – Anhanguera (2025)</li>
+      <li>Modelos de Gestão e Ferramentas Digitais – Anhanguera (2025)</li>
+    </ul>
+
+    <h3>Idiomas</h3>
+    <ul>
+      <li>Inglês: Pré-Avançado</li>
+      <li>Espanhol: Intermediário</li>
+      <li>Libras: Intermediário</li>
+    </ul>
+
+    <h3>Habilidades Técnicas</h3>
+    <ul>
+      <li>Python e Lógica de Programação</li>
+      <li>Banco de Dados MySQL</li>
+      <li>Pacote Office</li>
+    </ul>
+  </section>
+
+  <section id="projetos">
+    <h2>Portfólio</h2>
+    <div class="projeto">
+      <h3>Site pessoal (este portfólio)</h3>
+      <p>Desenvolvido com HTML, CSS e JavaScript puro, como parte da atividade prática da disciplina Fundamentos da Programação Web. O site foi publicado no GitHub Pages.</p>
+      <a href="https://jhulianabp.github.io/portifolio-web/" target="_blank">Ver site publicado</a>
+    </div>
+
+    <div class="projeto">
+      <h3>Projeto em Python – Análise de Dados</h3>
+      <p>Aplicação simples para análise de dados e visualização de informações, desenvolvida durante curso complementar.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensagemEnviada" class="sucesso">Mensagem enviada com sucesso!</p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Desenvolvido por Jhuliana de Barros Peixoto</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
